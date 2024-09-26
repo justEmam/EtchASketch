@@ -1,0 +1,23 @@
+#container {
+    display: flex;
+    height: 960px;
+    width: 960px;
+    flex-flow: wrap;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+
+
+.squares {
+    border: solid black;
+    box-sizing: border-box;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+button{
+    margin-left: 1000px;
+    width: 100px;
+    height: 100px;
+}
